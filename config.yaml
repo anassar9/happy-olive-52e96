@@ -38,7 +38,7 @@ params:
   footer:
     type: footer
     template: footer
-    content: '&copy; a'
+    content: '&copy; 2021 Ahmed Nassar All Rights Reserved.'
     has_social: true
     social_links:
       - type: action
