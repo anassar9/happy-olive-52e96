@@ -61,7 +61,7 @@ params:
         style: icon
         icon_class: fa-linkedin
         new_window: true
-  description: The Personal site of Scie
+  description: The Personal site of Scienti
 taxonomies:
   stub: stub
 disableKinds:
