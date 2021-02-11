@@ -61,7 +61,7 @@ params:
         style: icon
         icon_class: fa-linkedin
         new_window: true
-  description: /images/0001-3.jpgThe personal site of Scientist and Creator Ahmed Nassar
+  description: The personal site of Scientist and Creator Ahmed Nassar
 taxonomies:
   stub: stub
 disableKinds:
