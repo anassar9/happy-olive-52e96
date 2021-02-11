@@ -61,7 +61,7 @@ params:
         style: icon
         icon_class: fa-linkedin
         new_window: true
-  description: The Per
+  description: 'The Personal site of '
 taxonomies:
   stub: stub
 disableKinds:
