@@ -44,7 +44,6 @@ fields:
     config:
       required: true
 pages:
-  - content/blog/why-fonts-matter.md
   - content/blog/working-from-home.md
   - content/blog/workplace.md
   - content/blog/be.md
