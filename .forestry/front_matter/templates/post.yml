@@ -44,6 +44,5 @@ fields:
     config:
       required: true
 pages:
-  - content/blog/working-from-home.md
   - content/blog/workplace.md
   - content/blog/be.md
