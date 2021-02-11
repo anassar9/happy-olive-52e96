@@ -61,6 +61,7 @@ params:
         style: icon
         icon_class: fa-linkedin
         new_window: true
+  description: Th
 taxonomies:
   stub: stub
 disableKinds:
