@@ -27,7 +27,7 @@ sections:
     template: section_posts
     title: Latest from the Blog
     section_id: latest-posts
-    subtitle: An optional subtitle of the section
+    subtitle: 'Thoughts, analysis and more'
     posts_number: 3
     col_number: three
     actions:
