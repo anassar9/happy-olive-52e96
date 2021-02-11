@@ -41,3 +41,4 @@ fields:
     required: true
 pages:
 - content/blog/_index.md
+- content/blog/_index.md
