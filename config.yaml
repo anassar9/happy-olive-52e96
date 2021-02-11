@@ -1,7 +1,6 @@
 title: Ahmed Nassar
 baseURL: /
 params:
-  description: A portfolio theme with a blog
   color_scheme: light
   accent_color: violet
   header:
