@@ -1,18 +1,55 @@
 ---
-title: Project Title 1
-subtitle: Optional Project Subtitle
-date: '2019-05-10'
-thumb_image: images/1_thumb.jpg
-thumb_image_alt: 'White, black, and red shoe sole'
-image: images/1.jpg
-image_alt: 'White, black, and red shoe sole'
+title: As The Years Go By
+subtitle: a while back
+date: 2019-05-10
+thumb_image: "/images/20160223_155348-01-01-01-1-1.jpg"
+thumb_image_alt: ''
+image: ''
+image_alt: ''
 layout: project
+excerpt: ''
+
 ---
+Never in my entire time at college have I been guilty of anything more than enjoying the subtle rays of the sun and the fine contrast in per diem details, whenever and wherever possible. Although this still holds true to this day, there is something unparalleled about the college years. Maybe here we can see why.
 
-Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.
+### Rays
 
->"A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away." -Antoine de Saint-Exupery
+Heading into our first final of many to come, Dr. Zakaria, one of the college's finest arranges a final all round botany revision. All eyes on the black board. Being such an important curriculum, it was only natural for everyone to be in the same attentive state. Something to be easily seen in Abdulsamad's attitude.
 
-Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.
+![](/images/img_20151212_224134.jpg)
 
-Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.
+### Recess
+
+Being a scientist is synonymous with having long days and this definitely belongs to the longer ones. Combined with the fact that being in the lecture hall means that students are up for a series of uninterrupted lectures until the end of the day, you'll appreciate every single moment there is to rest. One couldn't miss a chance. In an attempt to utilize the few moments he got before the next lecture, Salah laid his head down on the desk while Anton, let's say he was savoring the moment.
+
+![](/images/20160223_155348-01-01-01-1.jpg)
+
+### Playground: Competition
+
+What's life without competition? Just like everything in life, competition shapes the college experience like no other thing could. A tight game between freshmen and juniors, each managing only one goal on the scoresheet, everybody standing on the touchline, the wait is not over. Substituted before the final whistle, Ibrahim joins the rest of the crowd as he watches the last moments of the game unfold, a game that is yet to yield a winner.
+
+![](/images/20160319_172456-01-jpeg.jpg)
+
+### Conversation
+
+On campus, different types of conversations take place everyday. While Ibrahim went to discuss some details of the upcoming botany exam others were enjoying a different type of conversation. Unless they, too, were talking about botany. We will never know.
+
+![](/images/20160523_164422-01-1.jpg)
+
+### Playground: Horizons
+
+New playground, new possibilities.
+
+![](/images/20171127_151939-01-jpeg.jpg)
+
+### Rain: First Perspective
+
+It's getting gloomy out there! Only, it is not. Beloved as it is, for the warmth and joy it brings upon our world, something better was yet to make an appearance. Rain. Everything was in place. With the lecture coming to its end, faster than everybody she goes through the door and arrives at the playground to solely enjoy the rain; or at least she thought.
+
+![](/images/20181206_150958-02-2.jpg)
+
+### Rain: Second Perspective
+
+Sometimes the most contrastive events in life are just moments apart. This becomes more likely if the two events are experienced by two different people, and that was true here. A solo walk into the rain was followed by a group running into it. Complete silence versus confetti of words. All thanks to rain, everybody's best friend.
+
+![](/images/20181206_150725-01-jpeg.jpg)
