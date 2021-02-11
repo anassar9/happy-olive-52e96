@@ -61,7 +61,7 @@ params:
         style: icon
         icon_class: fa-linkedin
         new_window: true
-  description: The Personal site of Scienor
+  description: The Personal site of Scieno
 taxonomies:
   stub: stub
 disableKinds:
