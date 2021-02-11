@@ -61,7 +61,7 @@ params:
         style: icon
         icon_class: fa-linkedin
         new_window: true
-  description: 'Theif '
+  description: The Per
 taxonomies:
   stub: stub
 disableKinds:
