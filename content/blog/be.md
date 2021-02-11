@@ -3,8 +3,8 @@ title: يوتوبيا
 subtitle: ماذا لو؟
 date: 2020-02-10T09:00:00+00:00
 thumb_image_alt: ''
-image_alt: lorem-ipsum
-excerpt: lorem-ipsum
+image_alt: ''
+excerpt: ''
 layout: post
 thumb_image: ''
 image: ''
