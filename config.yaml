@@ -61,7 +61,7 @@ params:
         style: icon
         icon_class: fa-linkedin
         new_window: true
-  description: The Personal site of ScientiNassar
+  description: The Personal site of Scien
 taxonomies:
   stub: stub
 disableKinds:
