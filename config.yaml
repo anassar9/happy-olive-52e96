@@ -61,7 +61,7 @@ params:
         style: icon
         icon_class: fa-linkedin
         new_window: true
-  description: The Personal site of Sciennti
+  description: 'The Personal site oScientist '
 taxonomies:
   stub: stub
 disableKinds:
