@@ -33,7 +33,7 @@ params:
         template: action
         label: Contact
         url: /contact/
-        style: link
+        style: button
   footer:
     type: footer
     template: footer
