@@ -54,13 +54,6 @@ params:
         style: icon
         icon_class: fa-instagram
         new_window: true
-      - type: action
-        template: action
-        label: LinkedIn
-        url: 'https://www.linkedin.com/'
-        style: icon
-        icon_class: fa-linkedin
-        new_window: true
   description: The personal site of Scientist and Creator Ahmed Nassar
 taxonomies:
   stub: stub
