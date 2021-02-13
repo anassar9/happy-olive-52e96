@@ -1,7 +1,7 @@
 ---
 title: About Me
 subtitle: Who am I really?
-image: ''
+image: "/images/20210213_110103.jpg"
 image_alt: ''
 layout: page
 excerpt: ''
