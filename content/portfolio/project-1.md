@@ -44,7 +44,7 @@ New playground, new possibilities.
 
 ### Rain: First Perspective
 
-It's getting gloomy out there! Only, it is not. Beloved as it is, for the warmth and joy it brings upon our world, something better was yet to make an appearance. Rain. Everything was in place. With the lecture coming to its end, faster than everybody she goes through the door and arrives at the playground to solely enjoy the rain; or at least she thought.
+It's winter, you're about to leave and in a classical way of checking you take one last look at the sky and think: It's getting gloomy out there! Only, it is not. Beloved as it is, for the warmth and joy it brings upon our world, something better was yet to make an appearance. Rain. Everything was in place. With the lecture coming to its end, faster than everybody she goes through the door and arrives at the playground to solely enjoy the rain; or at least she thought.
 
 ![](/images/20181206_150958-02-2.jpg)
 
