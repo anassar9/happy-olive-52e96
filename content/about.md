@@ -15,7 +15,7 @@ Having obtained my bachelor's degree in [Biophysics](https://en.wikipedia.org/wi
 
 This versatility in interests along with my curiosity and desire to build helped me create more interests and pick up new skills along the way to achieving whatever comes to my mind.
 
-And with the computer being of my very first fascinations, coding is definitely on the list. Have a look!
+And with the computer being one of my very first fascinations, coding is definitely on the list. Have a look!
 
      person = 'baby'
      relationship = (input('relationship good?'))
