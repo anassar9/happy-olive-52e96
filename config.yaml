@@ -29,7 +29,7 @@ params:
     logo_img_alt: lorem-ipsum
     has_nav: true
     nav_links:
-      - label: lorem-ipsum
+      - label: Home
         url: lorem-ipsum
         style: link
         icon_class: lorem-ipsum
