@@ -3,38 +3,6 @@ baseURL: /
 params:
   color_scheme: light
   accent_color: violet
-  header:
-    type: header
-    template: header
-    title: nassar
-    has_nav: true
-    nav_links:
-      - type: action
-        template: action
-        label: Home
-        url: /
-        style: link
-      - type: action
-        template: action
-        label: Portfolio
-        url: /portfolio/
-        style: link
-      - type: action
-        template: action
-        label: Blog
-        url: /blog/
-        style: link
-      - type: action
-        template: action
-        label: About
-        url: /about/
-        style: link
-      - type: action
-        template: action
-        label: Contact
-        url: /contact/
-        style: button
-    logo_img: /images/groovy-lettuce.png
   footer:
     type: footer
     template: footer
