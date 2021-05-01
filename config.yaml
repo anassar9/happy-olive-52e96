@@ -24,6 +24,12 @@ params:
         icon_class: fa-instagram
         new_window: true
   description: The personal site of Scientist and Creator Ahmed Nassar
+  header:
+    title: lorem-ipsum
+    logo_img_alt: lorem-ipsum
+    has_nav: true
+    nav_links: []
+    type: header
 taxonomies:
   stub: stub
 disableKinds:
