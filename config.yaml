@@ -27,7 +27,7 @@ params:
   header:
     title: nassar
     logo_img_alt: lorem-ipsum
-    has_nav: true
+    has_nav: false
     nav_links:
       - label: Home
         url: lorem-ipsum
