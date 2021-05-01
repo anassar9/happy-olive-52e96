@@ -3,6 +3,37 @@ baseURL: /
 params:
   color_scheme: light
   accent_color: violet
+  header:
+    type: header
+    template: header
+    title: nassar
+    has_nav: true
+    nav_links:
+      - type: action
+        template: action
+        label: Home
+        url: /
+        style: link
+      - type: action
+        template: action
+        label: Portfolio
+        url: /portfolio/
+        style: link
+      - type: action
+        template: action
+        label: Blog
+        url: /blog/
+        style: link
+      - type: action
+        template: action
+        label: About
+        url: /about/
+        style: link
+      - type: action
+        template: action
+        label: Contact
+        url: /contact/
+        style: button
   footer:
     type: footer
     template: footer
@@ -24,47 +55,6 @@ params:
         icon_class: fa-instagram
         new_window: true
   description: The personal site of Scientist and Creator Ahmed Nassar
-  header:
-    title: nassar
-    logo_img_alt: lorem-ipsum
-    has_nav: true
-    nav_links:
-      - label: Home
-        url: lorem-ipsum
-        style: link
-        icon_class: lorem-ipsum
-        new_window: false
-        no_follow: false
-        type: action
-      - label: lorem-ipsum
-        url: lorem-ipsum
-        style: link
-        icon_class: lorem-ipsum
-        new_window: false
-        no_follow: false
-        type: action
-      - label: lorem-ipsum
-        url: lorem-ipsum
-        style: link
-        icon_class: lorem-ipsum
-        new_window: false
-        no_follow: false
-        type: action
-      - label: lorem-ipsum
-        url: lorem-ipsum
-        style: link
-        icon_class: lorem-ipsum
-        new_window: false
-        no_follow: false
-        type: action
-      - label: lorem-ipsum
-        url: lorem-ipsum
-        style: link
-        icon_class: lorem-ipsum
-        new_window: false
-        no_follow: false
-        type: action
-    type: header
 taxonomies:
   stub: stub
 disableKinds:
