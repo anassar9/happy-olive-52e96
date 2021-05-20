@@ -8,6 +8,7 @@ excerpt: ''
 layout: post
 thumb_image: ''
 image: ''
+draft: true
 
 ---
 <div dir="rtl">

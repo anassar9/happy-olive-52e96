@@ -1,6 +1,5 @@
 +++
 date = 2021-05-19T20:00:00Z
-draft = true
 excerpt = ""
 image = ""
 image_alt = ""
