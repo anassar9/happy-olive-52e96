@@ -25,9 +25,13 @@ logicFields:
   - section_posts.posts_number
 models:
   config:
-    type: config
+    type: data
     label: Site Configuration
     fields:
+      - type: string
+        name: domain
+        label: Domain
+
       - type: string
         name: title
         label: Title
