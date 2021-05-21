@@ -39,7 +39,6 @@ models:
       - type: string
         name: domain
         label: Domain
-
       - type: string
         name: title
         label: Title
