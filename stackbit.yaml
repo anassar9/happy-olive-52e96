@@ -24,6 +24,7 @@ logicFields:
   - section_portfolio.projects_number
   - section_posts.posts_number
 models:
+
   config:
     type: data
     label: Site Configuration
