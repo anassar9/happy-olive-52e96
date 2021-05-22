@@ -339,7 +339,10 @@ stackbit_page_meta:
         label: Title
         description: The title of the post
         required: true
-        
+        - type: model
+      name: seo
+      models:
+        - stackbit_page_meta
       - type: string
         name: subtitle
         label: Subtitle
