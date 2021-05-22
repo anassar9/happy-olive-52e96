@@ -75,7 +75,6 @@ stackbit_page_meta:
             default: name
           - type: boolean
             name: relativeUrl
-
   config:
     type: data
     label: Site Configuration
