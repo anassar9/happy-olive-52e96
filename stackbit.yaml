@@ -383,7 +383,10 @@ stackbit_page_meta:
         label: Title
         description: The title of the project
         required: true
-        
+      - type: model
+        name: seo
+        models:
+          - stackbit_page_meta
       - type: string
         name: subtitle
         label: Subtitle
