@@ -8,14 +8,80 @@ uploadDir: images
 dataDir: data
 pagesDir: content
 pageLayoutKey: layout
+pageData:
+  - pagePath: /
+    initialExpandedPaths:
+      - '[0]'
+      - '[0].fields.title'
+      - '[0].fields.sections'
+      - '[0].fields.sections.items[0]'
+      - '[0].fields.sections.items[0].fields.title'
+      - '[0].fields.sections.items[0].fields.content'
+      - '[1]'
+      - '[1].fields.color_scheme'
+      - '[1].fields.accent_color'
 logicFields:
   - section_portfolio.projects_number
   - section_posts.posts_number
 models:
+stackbit_page_meta:
+  type: object
+  label: Page meta data
+  fields:
+    - type: string
+      name: title
+      label: Title
+      description: The page title that goes into the <title> tag
+      default: ''
+    - type: string
+      name: description
+      label: Description
+      description: The page description that goes into the <meta name="description"> tag
+      default: ''
+    - type: list
+      name: robots
+      label: Robots
+      description: The items that go into the <meta name="robots"> tag
+      items:
+        type: enum
+        options:
+          - all
+          - index
+          - follow
+          - noindex
+          - nofollow
+          - noimageindex
+          - notranslate
+          - none
+      default: [all]
+    - type: list
+      name: extra
+      label: Extra
+      description: >-
+        Additional definition for specific meta tags such as open-graph,
+        twitter, etc.
+      items:
+        type: object
+        labelField: name
+        fields:
+          - type: string
+            name: name
+            default: ""
+          - type: string
+            name: value
+            default: ""
+          - type: string
+            name: keyName
+            default: name
+          - type: boolean
+            name: relativeUrl
   config:
-    type: config
+    type: data
     label: Site Configuration
     fields:
+      - type: string
+        name: domain
+        label: Domain
       - type: string
         name: title
         label: Title
@@ -32,16 +98,14 @@ models:
         description: Site parameters
         required: true
         fields:
-          - type: string
-            name: domain
-            label: Domain
-            description: >-
-              The domain of your site, including the protocol, e.g.
-              https://mysite.com/
           - type: image
             name: favicon
             label: Favicon
             description: A square icon that represents your website
+          - type: string
+            name: description
+            label: Site Description
+            description: The default site description used in meta data.
           - type: enum
             name: color_scheme
             label: Color Scheme
@@ -50,7 +114,6 @@ models:
               - light
               - dark
             default: light
-            required: true
           - type: enum
             name: accent_color
             label: Accent Color
@@ -62,7 +125,6 @@ models:
               - violet
               - yellow
             default: pink
-            required: true
           - type: model
             name: header
             label: Header Configuration
@@ -144,16 +206,25 @@ models:
         label: Title
         description: The title of the page.
         required: true
+      - type: model
+        name: seo
+        models:
+          - stackbit_page_meta
       - type: boolean
         name: hide_title
         label: Hide page title
         default: true
+      - type: string
+        name: excerpt
+        label: Excerpt
+        description: The excerpt of the page displayed in meta data.
       - type: list
         name: sections
         label: Sections
         description: Page sections
         items:
           type: model
+          labelField: title
           models:
             - section_content
             - section_form
@@ -162,10 +233,6 @@ models:
             - section_portfolio
             - section_posts
             - section_testimonials
-      - type: model
-        name: seo
-        models:
-          - stackbit_page_meta
   blog:
     type: page
     urlPath: /blog
@@ -180,6 +247,10 @@ models:
         label: Title
         description: The title of the page.
         required: true
+      - type: model
+        name: seo
+        models:
+          - stackbit_page_meta
       - type: string
         name: subtitle
         label: Subtitle
@@ -188,6 +259,10 @@ models:
         name: hide_title
         label: Hide page title and subtitle
         default: false
+      - type: string
+        name: excerpt
+        label: Excerpt
+        description: The excerpt of the page displayed in meta data.
       - type: enum
         name: col_number
         label: Columns
@@ -197,10 +272,6 @@ models:
           - three
         default: three
         required: true
-      - type: model
-        name: seo
-        models:
-          - stackbit_page_meta
   portfolio:
     type: page
     urlPath: /portfolio
@@ -215,10 +286,18 @@ models:
         label: Title
         description: The title of the page.
         required: true
+      - type: model
+        name: seo
+        models:
+          - stackbit_page_meta
       - type: string
         name: subtitle
         label: Subtitle
         description: The text shown just below the page title.
+      - type: string
+        name: excerpt
+        label: Excerpt
+        description: The excerpt of the page displayed in meta data.
       - type: enum
         name: layout_style
         label: Layout Style
@@ -227,10 +306,6 @@ models:
           - mosaic
           - tiles
         default: mosaic
-      - type: model
-        name: seo
-        models:
-          - stackbit_page_meta
   page:
     type: page
     label: Page
@@ -244,10 +319,18 @@ models:
         label: Title
         description: The title of the page
         required: true
+      - type: model
+        name: seo
+        models:
+          - stackbit_page_meta
       - type: string
         name: subtitle
         label: Subtitle
         description: The text shown just below the page title.
+      - type: string
+        name: excerpt
+        label: Excerpt
+        description: The excerpt of the page displayed in meta data.
       - type: image
         name: image
         label: Image
@@ -256,10 +339,6 @@ models:
         name: image_alt
         label: Image Alt Text
         description: The alt text of the image.
-      - type: model
-        name: seo
-        models:
-          - stackbit_page_meta
   post:
     type: page
     urlPath: '/blog/{slug}'
@@ -272,6 +351,10 @@ models:
         label: Title
         description: The title of the post
         required: true
+      - type: model
+        name: seo
+        models:
+          - stackbit_page_meta
       - type: string
         name: subtitle
         label: Subtitle
@@ -299,11 +382,7 @@ models:
       - type: string
         name: excerpt
         label: Excerpt
-        description: The excerpt of the post displayed in the blog feed.
-      - type: model
-        name: seo
-        models:
-          - stackbit_page_meta
+        description: The excerpt of the post displayed in the blog feed and in meta data.
   project:
     type: page
     urlPath: '/portfolio/{slug}'
@@ -316,10 +395,18 @@ models:
         label: Title
         description: The title of the project
         required: true
+      - type: model
+        name: seo
+        models:
+          - stackbit_page_meta
       - type: string
         name: subtitle
         label: Subtitle
         description: The text shown just below the project title.
+      - type: string
+        name: excerpt
+        label: Excerpt
+        description: The excerpt of the page displayed in meta data.
       - type: date
         name: date
         label: Date
@@ -340,10 +427,6 @@ models:
         name: image_alt
         label: Image Alt Text (Single Project)
         description: The alt text of the single project image.
-      - type: model
-        name: seo
-        models:
-          - stackbit_page_meta
   section:
     type: object
     label: Section
@@ -381,6 +464,13 @@ models:
         name: content
         label: Content
         description: The text content of the section.
+      - type: list
+        name: actions
+        label: Action Buttons
+        items:
+          type: model
+          models:
+            - action
   section_form:
     type: object
     label: Form Section
@@ -494,7 +584,6 @@ models:
       - type: string
         name: view_all_url
         label: All projects button URL
-        default: '#'
   section_posts:
     type: object
     label: Posts Section
@@ -565,7 +654,7 @@ models:
         name: url
         label: URL
         required: true
-        default: '#'
+        widget: url
       - type: enum
         name: style
         label: Style
@@ -575,20 +664,10 @@ models:
           - icon
         default: link
         required: true
-      - type: enum
-        name: icon
+      - type: string
+        name: icon_class
         label: Icon
-        options:
-          - dribbble
-          - facebook
-          - github
-          - instagram
-          - linkedin
-          - pinterest
-          - twitter
-          - vimeo
-          - youtube
-        default: dribbble
+        description: 'Font Awesome icon class name, used only when style is "icon".'
       - type: boolean
         name: new_window
         label: Should the link open a new tab/window
@@ -686,53 +765,3 @@ models:
         name: is_required
         label: Is the field required?
         default: false
-  stackbit_page_meta:
-    type: object
-    label: Page meta data
-    fields:
-      - type: string
-        name: title
-        label: Title
-        description: The page title that goes into the <title> tag
-        default: ''
-      - type: string
-        name: description
-        label: Description
-        description: The page description that goes into the <meta name="description"> tag
-        default: ''
-      - type: list
-        name: robots
-        label: Robots
-        description: The items that go into the <meta name="robots"> tag
-        items:
-          type: enum
-          options:
-            - all
-            - index
-            - follow
-            - noindex
-            - nofollow
-            - noimageindex
-            - notranslate
-            - none
-      - type: list
-        name: extra
-        label: Extra
-        description: >-
-          Additional definition for specific meta tags such as open-graph,
-          twitter, etc.
-        items:
-          type: object
-          labelField: name
-          fields:
-            - type: string
-              name: name
-              default: ''
-            - type: string
-              name: value
-              default: ''
-            - type: string
-              name: keyName
-              default: name
-            - type: boolean
-              name: relativeUrl
