@@ -247,6 +247,7 @@ stackbit_page_meta:
         label: Title
         description: The title of the page.
         required: true
+        
       - type: string
         name: subtitle
         label: Subtitle
