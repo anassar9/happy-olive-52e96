@@ -209,7 +209,7 @@ stackbit_page_meta:
       - type: model
         name: seo
         models:
-         - stackbit_page_meta
+          - stackbit_page_meta
       - type: boolean
         name: hide_title
         label: Hide page title
