@@ -1,14 +1,13 @@
 ---
 title: Maneuvering Near Light Speed
 subtitle: Physics Video Translation
-date: 2019-04-30
-thumb_image: "/images/20210126_062631-1.jpg"
+date: '2019-04-30'
+thumb_image: /images/20210126_062631(1) (1).jpg
 thumb_image_alt: ''
 image: ''
 image_alt: ''
 layout: project
 excerpt: ''
-
 ---
 In this video, the speaker explains what happens to mass at speeds near the speed of light through two major concepts: Transverse Mass and Longitudinal Mass.
 
