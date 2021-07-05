@@ -2,7 +2,7 @@ title: Ahmed Nassar
 baseURL: /
 params:
   color_scheme: light
-  accent_color: violet
+  accent_color: blue
   header:
     type: header
     template: header
