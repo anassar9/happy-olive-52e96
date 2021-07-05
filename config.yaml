@@ -34,7 +34,7 @@ params:
         label: Contact
         url: /contact/
         style: button
-    logo_img: /images/Untitled (23).png
+    logo_img: /images/0001-3816883932_20210704_091316_0000.png (1).png
   footer:
     type: footer
     template: footer
