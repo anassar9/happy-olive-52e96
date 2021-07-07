@@ -1,7 +1,7 @@
 ---
 title: Portfolio
 subtitle: ''
-layout_style: tiles
+layout_style: mosaic
 layout: portfolio
 excerpt: ''
 ---
