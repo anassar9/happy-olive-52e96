@@ -5,11 +5,10 @@ image: ''
 image_alt: ''
 layout: page
 excerpt: ''
-
 ---
-You are in the personal zone of Ahmed R. Nassar. Scientist, blogger, and creator.
+You are in the personal zone of Ahmed Nassar. Scientist, blogger, and creator.
 
-![](/images/20210213_110103.jpg)
+![](/images/20210213\_110103.jpg)
 
 Having obtained my bachelor's degree in [Biophysics](https://en.wikipedia.org/wiki/Biophysics), it's safe to say that my educational background falls perfectly in line with my versatile lifestyle.
 
