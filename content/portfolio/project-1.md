@@ -2,7 +2,7 @@
 title: As The Years Go By
 subtitle: a while back
 date: '2019-05-10'
-thumb_image: /images/20160223_155348-01-01-01-1 (2) (3).jpg
+thumb_image: /images/20160223_155348-01-01-01-1 (2).jpg
 thumb_image_alt: ''
 image: ''
 image_alt: ''
