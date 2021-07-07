@@ -1,11 +1,11 @@
 ---
 title: Why Twitter deplatformed Trump but not Hamas leader?
 subtitle: Trump couldn't be worse than a terrorist, right?
-date: 2021-05-19T20:00:00+00:00
+date: 2021-05-19T20:00:00.000+00:00
 thumb_image_alt: Trump's twitter account suspended
 image_alt: Trump's twitter account suspended
 excerpt: " It's a very interesting question to ask and quite frankly not the easiest
-  to answer"
+  to answer."
 layout: post
 thumb_image: "/images/john-cameron-irkhdv88xp8-unsplash.jpg"
 image: "/images/john-cameron-irkhdv88xp8-unsplash.jpg"
