@@ -2,7 +2,7 @@
 title: Maneuvering Near Light Speed
 subtitle: Physics Video Translation
 date: '2019-04-30'
-thumb_image: /images/20210126_062631e.jpg
+thumb_image: /images/20210126_062631qe.jpg
 thumb_image_alt: ''
 image: ''
 image_alt: ''
