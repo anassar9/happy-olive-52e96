@@ -4,7 +4,7 @@ hide_title: true
 sections:
   - type: section_hero
     template: section_hero
-    title: 'Hey there, I''m '
+    title: 'Hey there, I''m Ahmed.'
     section_id: hero
     content: >
       Welcome to my personal site. A place where I create, showcase and put my
