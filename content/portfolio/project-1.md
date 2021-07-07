@@ -1,13 +1,14 @@
 ---
 title: As The Years Go By
 subtitle: a while back
-date: '2019-05-10'
-thumb_image: /images/20160223_155348-01-01-01-1-1.jpg
+date: 2019-05-10
+thumb_image: "/images/20160223_155348-01-01-01-1-1.jpg"
 thumb_image_alt: ''
 image: ''
 image_alt: ''
 layout: project
 excerpt: ''
+
 ---
 Never in my entire time at college have I been guilty of anything more than enjoying the subtle rays of the sun and the fine contrast in per diem details, whenever and wherever possible. Although this still holds true to this day, there is something unparalleled about the college years. Maybe here we can see why.
 
@@ -43,7 +44,7 @@ New playground, new possibilities.
 
 ### Rain: First Perspective
 
-It's winter, you're about to leave and in a classical way of checking you take one last look at the sky and think: It's getting gloomy out there! Only, it is not. Beloved as it is, for the warmth and joy it brings upon our world, something better was yet to make an appearance. Rain. Everything was in place. With the lecture coming to its end, faster than everybody she goes through the door and arrives at the playground to solely enjoy the rain; or at least she thought.
+It's winter, you're about to leave and in a classical way of checking you take one last look at the sky and think: It's getting gloomy out there! Only, it is not. Beloved as it is, for the warmth and joy it brings upon our world, something better was yet to make an appearance; rain. Everything was in place. With the lecture coming to its end, faster than everybody she goes through the door and arrives at the playground to solely enjoy the rain; or at least she thought.
 
 ![](/images/20181206_150958-02-2.jpg)
 
