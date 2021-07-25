@@ -1,14 +1,13 @@
 ---
 title: Entropy
 subtitle: Physics Video Translation
-date: 2019-02-26
-thumb_image: "/images/bottles-4387824_1920e.jpg"
+date: '2019-02-26'
+thumb_image: /images/bottles-4387824_1920e.jpg
 thumb_image_alt: ''
-image: "/images/bottles-4387824_1920.jpg"
+image: /images/bottles-4387824_1920.jpg
 image_alt: ''
 layout: project
 excerpt: ''
-
 ---
 In this video, the speaker explains the physical concept of entropy, what it measures and how it is used to determine the state of a thermodynamic system while deconstructing the definition of a microstate versus a macrostate.
 
@@ -22,9 +21,9 @@ The purpose of this project is to provide clean true-to-source translation for A
 
 ## Tools
 
-* SDL Trados Studio
-* Google Translation Api
-* Microsoft Word
+*   SDL Trados Studio
+*   Google Translation Api
+*   Typora
 
 ## English vs Arabic
 
@@ -37,4 +36,3 @@ In this table, we can see some examples of the Arabic translation that’s inclu
 | Entropy is a measure of the number of ways energy can be distributed in a system of molecules. Molecules in a system at equilibrium have the same average energy. | تعد الانتروبيا مقياسًا لعدد الطرق التي يمكن بها توزيع الطاقة في نظام جزيئي. عندما تكون الجزيئات في نظام عند نقطة الاتزان يكون لها نفس متوسط كمية الطاقة |
 | When referring to the microstate of a system of molecules we are looking at a snapshot of all the energy levels that the  molecules are occupying at a given instant. | عند الإشارة إلى الحالة المجهرية لنظام من الجزيئات فنحن ننظر إلى لقطة تضم جميع مستويات الطاقة التي تشغلها الجزيئات في لحظة معينة |
 | In our hot bar, because there is more energy our atoms are vibrating strongly around their lattice position. In our cold bar, the atoms aren't really oscillating much. When we push these two bars together, some of the energy from the hot bar is transferred to the cold bar so the question is, why is this thermodynamically favorable? | في القضيب الساخن، نظرًا لوجود المزيد من الطاقة تهتز الذرات بقوة حول موقعها الشبكي. في القضيب البارد ، لا تتذبذب الذرات كثيرًا. عندما نضم هذين القضيبين معًا ، يتم نقل بعض الطاقة من القضيب الساخن إلى القضيب البارد ، لذا فإن السؤال هو، لماذا هذا مفضل من الناحية الديناميكية الحرارية؟ |
-
