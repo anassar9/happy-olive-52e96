@@ -49,3 +49,5 @@ Again, it’s not a simple equation with a known verifiable outcome, but it coul
 ##### **In the end ..**
 
 Presidents and politicians don’t need a social media account to announce a decision or wage a war because in the end people are the ones who will be voicing their message and media agencies will be racing to report the news du jour which will eventually end up on those platforms. It’s the likes of Twitter, at the very least, and Facebook who need this type of content not the other way around.
+
+...
